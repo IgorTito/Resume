@@ -62,19 +62,20 @@ p {
 }
 
 .title_year {
-    color: #3d3d3d;
+    color: #000000;
     font-size: 16px;
 
 }
 
 .title_name {
-    font-size: 2rem;
-    color: #000000;
-    font-weight: 500;
-    margin: 0.8rem 0;
+    font-size: 16px;
+    font-weight: bold;
+    /*margin: 0.8rem 0;*/
+    color: black;
+
 }
 .item_subtitle {
-    font-size: 2rem;
+    font-size: 16px;
     color: var(--text-color);
     font-weight: 400;
 }
@@ -98,10 +99,12 @@ p {
         gap: 7rem;
     }
 }
+/*грид*/
 .profile {
     grid-column: 1 / -1;
     margin-bottom: 2rem;
 }
+/*флекс*/
 .group-1, .group-2 {
     display: flex;
     flex-direction: column;
@@ -180,7 +183,7 @@ p {
     line-height: 2;
 }
 
-/* Ref  */
+/* курсы  */
 .ref_item {
     margin-top: 2rem;
 }
@@ -260,7 +263,7 @@ hr {
     margin-top: 5rem;
     margin-bottom: 1rem;
     border: none;
-    border-top: 2px solid rgba(128, 128, 128, 0.229);
+    border-top: 5px solid rgba(128, 128, 128, 0.229);
 }
 @media only screen and (max-width: 768px) {
     hr {
